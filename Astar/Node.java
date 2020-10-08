@@ -82,6 +82,13 @@ public class Node {
 		Node node = (Node) obj;
 		return rowIndex==node.getRowIndex() && colIndex == node.getColIndex();
 	}
+
+	@Override
+	public String toString() {
+		return "Node [rowIndex=" + rowIndex + ", colIndex=" + colIndex + "]\n";
+	}
+	
+	
 	
 	
 }
